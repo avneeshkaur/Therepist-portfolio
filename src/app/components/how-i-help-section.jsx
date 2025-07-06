@@ -28,7 +28,7 @@ export default function HowIHelpSection() {
               windowWidth <= 767 ? "flex-col items-center" : "justify-start"
             }`}
           >
-            {/* Individual Counseling Card */}
+            {/* Stress Counseling Card */}
             <div
               className="bg-[#B5DBDF] rounded-2xl p-6 shadow-md border border-[#9fbdbd] group cursor-pointer hover:shadow-[0_6px_20px_rgba(0,0,0,0.15)] z-10 relative transition-all"
               style={{
@@ -45,7 +45,7 @@ export default function HowIHelpSection() {
               }}
             >
               <div className="w-full h-56 rounded-lg mb-4 overflow-hidden group-hover:translate-x-2 transition-transform">
-                <img src="/image/prayer.webp" alt="Individual Counseling" className="object-cover w-full h-full" />
+                <img src="/image/STRESS-MANAGEMENT.png" alt="Stress Management" className="object-cover w-full h-full" />
               </div>
               <h3 className="text-2xl font-bold text-[#1E4145] mb-3 group-hover:translate-x-2 transition-transform">
                 Anxiety & Stress Management  in Los Angeles, CA
@@ -61,7 +61,7 @@ export default function HowIHelpSection() {
               </Button>
             </div>
 
-            {/* Couples Counseling Card */}
+            {/* Relationship Counseling Card */}
             <div
               className="bg-[#B5DBDF] rounded-2xl p-6 shadow-md border border-[#9fbdbd] group cursor-pointer hover:shadow-[0_6px_20px_rgba(0,0,0,0.15)] z-10 relative transition-all"
               style={{
@@ -78,13 +78,46 @@ export default function HowIHelpSection() {
               }}
             >
               <div className="w-full h-56 rounded-lg mb-4 overflow-hidden group-hover:translate-x-2 transition-transform">
-                <img src="/image/couple.webp" alt="Couples Counseling" className="object-cover w-full h-full" />
+                <img src="/image/Relationship-counseling.png" alt="Relationship Counseling" className="object-cover w-full h-full" />
               </div>
               <h3 className="text-2xl font-bold text-[#1E4145] mb-3 group-hover:translate-x-2 transition-transform">
                 Relationship Counseling in Los Angeles, CA
               </h3>
               <p className="text-[#1E4145] text-base mb-4 leading-relaxed group-hover:translate-x-2 transition-transform">
                 Tailored relationship counseling services in Los Angeles, CA, designed to strengthen communication, resolve conflicts, and foster deeper emotional connections.
+              </p>
+              <Button
+                variant="outline"
+                className="w-full border border-[#1E4145] text-[#1E4145] hover:bg-white hover:text-[#1E4145] rounded-lg text-sm py-2 cursor-pointer"
+              >
+                Learn More
+              </Button>
+            </div>
+
+            {/* Trauma Recovery Card */}
+            <div
+              className="bg-[#B5DBDF] rounded-2xl p-6 shadow-md border border-[#9fbdbd] group cursor-pointer hover:shadow-[0_6px_20px_rgba(0,0,0,0.15)] z-10 relative transition-all"
+              style={{
+                width:
+                  windowWidth <= 639
+                    ? "100%"
+                    : windowWidth <= 719
+                    ? "90%"
+                    : windowWidth <= 767
+                    ? "100%"
+                    : windowWidth <= 879
+                    ? "320px"
+                    : "400px",
+              }}
+            >
+              <div className="w-full h-56 rounded-lg mb-4 overflow-hidden group-hover:translate-x-2 transition-transform">
+                <img src="/image/Trauma-Recovery.png" alt="Trauma Recovery" className="object-cover w-full h-full" />
+              </div>
+              <h3 className="text-2xl font-bold text-[#1E4145] mb-3 group-hover:translate-x-2 transition-transform">
+                Trauma Recovery in Los Angeles, CA
+              </h3>
+              <p className="text-[#1E4145] text-base mb-4 leading-relaxed group-hover:translate-x-2 transition-transform">
+                Compassionate trauma recovery in Los Angeles, CA, using proven approaches to help you heal from past experiences and regain your sense of safety and strength.
               </p>
               <Button
                 variant="outline"
